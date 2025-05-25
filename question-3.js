@@ -17,12 +17,13 @@ function authenticateUser(username, password) {
 const username = "user123";
 const password = "securepass";
 console.log(authenticateUser(username, password));
+
 // ตัวอย่างการใช้งาน
-//const username1 = "user123";
-//const password1 = "securepass";
+const username1 = "user123";
+const password1 = "securepass";
 
-//const username2 = "guest";
-//const password2 = "password123";
+const username2 = "guest";
+const password2 = "password123";
 
-//console.log(authenticateUser(username1, password1)); // Login successful.
-//console.log(authenticateUser(username2, password2)); // Login failed. Please check your username and password.
+console.log(authenticateUser(username1, password1)); // Login successful.
+console.log(authenticateUser(username2, password2)); // Login failed. Please check your username and password.
